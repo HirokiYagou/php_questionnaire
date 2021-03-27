@@ -24,7 +24,7 @@ class CreatePostsTable extends Migration
             $table->string('name');
             $table->integer('age');
             $table->integer('sex');
-            $table->integer('request');
+            $table->integer('property');
             $table->text('memo');
             $table->timestamps();
         });

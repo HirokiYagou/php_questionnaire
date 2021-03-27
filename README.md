@@ -15,5 +15,5 @@
 | name | string |
 | age | integer |
 | sex | integer |
-| request | integer |
+| property | integer |
 | memo | text |
