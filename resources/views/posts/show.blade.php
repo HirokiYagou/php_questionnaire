@@ -2,7 +2,7 @@
 @section('title', "詳細ページ - $post->id | ")
 
 @section('content')
-    <h1 >show/{{ $post->id }}ページ</h1>
+    <h1 >回答の詳細ページ</h1>
       <ul class="list-group">
         <li class="list-group-item">
           <h6>名前を教えてください。</h6>

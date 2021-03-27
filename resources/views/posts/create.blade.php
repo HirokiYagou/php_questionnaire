@@ -2,7 +2,7 @@
 @section('title', '新規回答 |')
 
 @section('content')
-    <h1>createページ</h1>
+    <h1>アンケート回答ページ</h1>
     <div class="card">
       <div class="card-body">
         @if ($errors->any())
