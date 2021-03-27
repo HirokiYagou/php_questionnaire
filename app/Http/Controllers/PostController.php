@@ -22,15 +22,16 @@ class PostController extends Controller
             'name' => 'required',
             'age' => 'required',
             'sex' => 'required',
-            'request' => 'required',
+            'property' => 'required',
             'memo' => 'required',
         ]);
         $post = new Post();
         $post->name = $request->name;
         $post->age = $request->age;
         $post->sex = $request->sex;
-        $post->request = $request->request;
+        $post->property = $request->property;
         $post->memo = $request->memo;
+        eval(\Psy\sh());
         $post->save();
 
         return view('posts.store');
