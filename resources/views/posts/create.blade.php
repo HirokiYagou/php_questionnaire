@@ -59,7 +59,7 @@
                 <input class="form-check-input" type="checkbox" value="" id="property7">
                 <label class="form-check-label" for="property7">土地</label>
               </div>
-              <input type="input" name="property" id="propertyHidden">
+              <input type="hidden" name="property" id="propertyHidden">
             </div>
             <div class="mb-3">
               <label for="memoTextarea" class="form-label">その他ご要望をご記入ください。</label>
