@@ -16,4 +16,23 @@ class PostController extends Controller
     public function create(){
         return view('posts.create');
     }
+
+    public function store(Request $request){
+        $request->validate([
+            'name' => 'required',
+            'age' => 'required',
+            'sex' => 'required',
+            'request' => 'required',
+            'memo' => 'required',
+        ]);
+        $post = new Post();
+        $post->name = $request->name;
+        $post->age = $request->age;
+        $post->sex = $request->sex;
+        $post->request = $request->request;
+        $post->memo = $request->memo;
+        $post->save();
+
+        return view('posts.store');
+    }
 }
