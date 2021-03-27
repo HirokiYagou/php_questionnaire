@@ -44,21 +44,22 @@
             <div class="mb-3">
               <label for="property" class="form-label">希望物件種別を教えてください。</label>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="property2">
-                <label class="form-check-label" for="property2">新築一戸建て</label>
+                <input class="form-check-input" type="checkbox" value="" id="detached-new">
+                <label class="form-check-label" for="detached-new">新築一戸建て</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="property3">
-                <label class="form-check-label" for="property3">中古一戸建て</label>
+                <input class="form-check-input" type="checkbox" value="" id="detached-old">
+                <label class="form-check-label" for="detached-old">中古一戸建て</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="property5">
-                <label class="form-check-label" for="property5">マンション</label>
+                <input class="form-check-input" type="checkbox" value="" id="apartment">
+                <label class="form-check-label" for="apartment">マンション</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="property7">
-                <label class="form-check-label" for="property7">土地</label>
+                <input class="form-check-input" type="checkbox" value="" id="land">
+                <label class="form-check-label" for="land">土地</label>
               </div>
+              <!-- JavaScriptで素数の掛け算をして、input:hiddenに代入 -->
               <input type="hidden" name="property" id="propertyHidden">
             </div>
             <div class="mb-3">

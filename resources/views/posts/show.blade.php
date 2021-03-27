@@ -30,6 +30,7 @@
         </li>
         <li class="list-group-item">
           <h6>希望物件種別を教えてください。</h6>
+          <!-- PHPで素因数分解 -->
           @if ($post->property % 2 == 0)
             <p class="h3">→新築一戸建て</p>
           @endif
