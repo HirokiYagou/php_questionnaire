@@ -17,3 +17,7 @@ Route::get('/', [App\Http\Controllers\PostController::class, 'index']);
 Route::resource('/posts', App\Http\Controllers\PostController::class)->only([
     'index', 'create'
 ]);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
