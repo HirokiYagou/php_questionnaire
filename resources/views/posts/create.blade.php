@@ -24,10 +24,10 @@
               <label for="ageSelect" class="form-label">年齢を教えてください。</label>
               <select name="age" id="ageSelect" class="form-select" aria-label="Default select example">
                 <option value="">--選択してください--</option>
-                <option value="1">20歳未満</option>
-                <option value="2">20歳〜39歳</option>
-                <option value="3">40歳〜59歳</option>
-                <option value="4">60歳以上</option>
+                <option value="0">20歳未満</option>
+                <option value="1">20歳〜39歳</option>
+                <option value="2">40歳〜59歳</option>
+                <option value="3">60歳以上</option>
               </select>
             </div>
             <div class="mb-3">
@@ -65,9 +65,9 @@
               <label for="memoTextarea" class="form-label">その他ご要望をご記入ください。</label>
               <textarea name="memo" class="form-control" id="memoTextarea" rows="5"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary" id="submitBtn">送信</button>
+            <button type="submit" class="btn btn-success" id="submitBtn">送信</button>
         </form>
       </div>
     </div>
-    <a href="/" class="btn btn-primary">トップへ戻る</a>
+    <a href="/" class="btn btn-secondary">一覧へ戻る</a>
 @endsection
