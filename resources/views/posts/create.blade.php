@@ -37,7 +37,7 @@
                 <label class="form-check-label" for="sexRadio">男性</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="sex" id="sexRadio2" value="1" checked>
+                <input class="form-check-input" type="radio" name="sex" id="sexRadio2" value="1">
                 <label class="form-check-label" for="sexRadio2">女性</label>
               </div>
             </div>

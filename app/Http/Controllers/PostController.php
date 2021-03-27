@@ -31,7 +31,6 @@ class PostController extends Controller
         $post->sex = $request->sex;
         $post->property = $request->property;
         $post->memo = $request->memo;
-        eval(\Psy\sh());
         $post->save();
 
         return view('posts.store');

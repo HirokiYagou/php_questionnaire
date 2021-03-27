@@ -6,6 +6,7 @@ if (document.URL.match( /create/ )) {
     let property3 = (document.getElementById('property3').checked) ? 3 : 1;
     let property5 = (document.getElementById('property5').checked) ? 3 : 1;
     let property7 = (document.getElementById('property7').checked) ? 3 : 1;
-    propertyHidden.value = property2 * property3 * property5 * property7;
+    let property = property2 * property3 * property5 * property7;
+    propertyHidden.value = (property === 1) ? null : property;
   });
 }
