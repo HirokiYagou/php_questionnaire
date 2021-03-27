@@ -6,7 +6,7 @@
     <ul class="list-group">
         @forelse ($posts as $post)
             <li class="list-group-item">
-              <a href="{{ url('/posts/'.$post->id) }}">{{ $post->name }}</a>({{ $post->created_at }})
+              <a href="{{ url('/posts/'.$post->id) }}">{{ $post->name }}</a>  ({{ $post->created_at }})
             </li>
         @empty
             <p class="list-group-item">アンケートが存在しません</p>
