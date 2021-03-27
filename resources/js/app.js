@@ -1,2 +1,2 @@
 require('./bootstrap');
-require('./request');
+require('./property');
