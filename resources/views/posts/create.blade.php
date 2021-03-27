@@ -31,9 +31,24 @@
             <label class="form-check-label" for="sexRadio2">女性</label>
           </div>
         </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <div class="mb-3">
+          <label for="request" class="form-label">希望物件種別を教えてください。</label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">新築一戸建て</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">中古一戸建て</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+            <label class="form-check-label" for="flexCheckDefault3">マンション</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+            <label class="form-check-label" for="flexCheckDefault4">土地</label>
+          </div>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
