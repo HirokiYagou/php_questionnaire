@@ -3,7 +3,7 @@
 
 @section('content')
   <h1>アンケート回答ページ</h1>
-  <div class="card">
+  <div class="card mb-3">
     <div class="card-body">
       @if ($errors->any())
         <div class="alert alert-danger">
