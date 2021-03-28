@@ -3,7 +3,7 @@
 
 @section('content')
   <h1 >回答の詳細ページ</h1>
-    <ul class="list-group">
+    <ul class="list-group mb-3">
       <li class="list-group-item">
         <h6>名前を教えてください。</h6>
         <p class="h3">→{{ $post->name }}</p>
